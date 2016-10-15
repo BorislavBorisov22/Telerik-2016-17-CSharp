@@ -1,0 +1,27 @@
+1. C#
+	C# is an object-orientated programming language.It is intended for developing software that is related real world
+components. C# is condisdered to be one of the modern and "high-level" programming languages.
+2. C
+	C is developed by Dennis Ritchie. Nowadays it is still one of the most popular and commonly used programming
+languages in the world. It is generally used for developing operating systems and and  various aplllication software for
+different computers
+3. JavaScript
+	JavaScript is one the the high-level programming languages. Together with HTML and CSS it is use in the
+production of web-based software and technologies. It is used to add functionality to different components of sites,
+web pages, etc.
+4. Objective-C
+	Objective-C just like C# is an object-orientated programming languages which has some similarities with the C
+programming language. Since the introduction of "Swift", Objective-C is no longer the main language for Apple for their
+OSX and iOS operating systems and apllication software.
+5. SQL (Structured Query Language)
+	SQL is a special-purpose language. It is used for holding data in a database system or processing data. SQL was
+one of the first commercial languages and now  is the most widely used database language in the world.
+6. Python
+	Python is a high-level, servers-side scripting language for websites and mobile applications. It is considered a 
+feairly easy language to learn for people who are just starting with programming. It is considered really compact which
+means developers use fewer lines for different operations than they would in other languages.It is used by Google, Yahoo
+and NASA.
+	 
+
+	
+

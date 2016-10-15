@@ -1,0 +1,8 @@
+.NET is a development framework - it has many libraries containing a range of 
+functionalities and also ha s runtime for executing applications, C# is 
+an object-orientated programming language that is mostly built in the .NET framework.
+
+C# is simply a programming language, while .NET is a blanket term that tends to cover
+both the .NET Framework and the Common Language RunTime (CLR) which is the runtime 
+in which .NEt asseblies are run.
+
