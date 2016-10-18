@@ -1,0 +1,20 @@
+1. Microsoft Visual Studio
+	Visual Studio is an IDE from Microsoft.It can be used for writing in many different programming languages(C#, C,
+C++, Visual Basic.NET, HTML, CSS, JavaScript,etc,). Visual Studio is used to develop computer programs for Microsoft 
+Windows.It inculdes text-editor (makes it easier for developers to write code), code-editor and debugger.
+2. Eclipse
+	Eclipse is an IDE that is considered to be the free alternative of Microsoft's Visual Studio. IT supports many
+languages but it is mostly known for being used for programming in JAVA. It's big advantage in the past was that unlike
+Visual Studio it could be used under Linux which made it more available.
+3. NetBeans
+ NetBeans is a very powerful IDE with many useful functions that can make developers work much easier. It is most popular
+for writing in C and C++ but also has versions with options that add some moer technologiesJava, HTML5, PHP, etc. It works
+on different platforms such as Windows, Linux, OS X, etc.
+4. ShiftEdit
+	ShiftEdit is an oline ID which allows to develop through a browser without haing to install software on your
+computer. It supports CSS, HTML, Java, JavaScript, Perl, PHP, Python, and Ruby. It can be used on Mac, Linux and 
+WIndows Devices.
+5. Eric Python IDE
+	This is a full-featured editor and IDE for Ruby and Python developing. It is free and is intended for use as a 
+simple editor for small and stand-alone tasks as well as a proffesional project management tool.
+	
