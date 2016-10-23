@@ -7,16 +7,16 @@ namespace FibonacciNumbers
     {
         static void Main()
         {
-            int n = int.Parse(Console.ReadLine());
+            long n = long.Parse(Console.ReadLine());
 
-            int firstFibonacciNumber = 0;
-            int secondFibonacciNumber = 1;
-            int thirdFibonacciNumber = 0;
+            long firstFibonacciNumber = 0;
+            long secondFibonacciNumber = 1;
+            long thirdFibonacciNumber = 0;
 
             Console.Write("{0}, {1}, ",firstFibonacciNumber,secondFibonacciNumber);
            
 
-            for (int i = 0; i < n - 2; i++)
+            for (long i = 0; i < n - 2; i++)
             {
                 
                 thirdFibonacciNumber = firstFibonacciNumber + secondFibonacciNumber;
