@@ -1,7 +1,5 @@
 ﻿using System;
 
-
-
 class BobiAvokadoto
 {
     static void Main()
@@ -13,31 +11,24 @@ class BobiAvokadoto
         for (int i = 0; i < combsCount; i++)
         {
             uint currComb = uint.Parse(Console.ReadLine());
-            int currCombOnesCount = 0;
-            bool canCombBeUsed = true;
-            for (int position = 0; position < 32; position++)
-            {
-                uint combBit = currComb >> position & 1;
-                uint hairBit = bobisHair >> position & 1;
-                if (combBit == 1)
-                {
-                    currCombOnesCount++;
-                }
-                if (combBit == 1 && hairBit == 1)
-                {
-                    canCombBeUsed = false;
-                    break;
-                }
-            }
 
-            if (canCombBeUsed)
+            if ((currComb & bobisHair) == 0)
             {
+                int currCombOnesCount = 0;
+                for (int position = 0; position < 32; position++)
+                {
+                    if ((currComb >> position & 1) == 1)
+                    {
+                        currCombOnesCount++;
+                    }
+                }
                 if (currCombOnesCount > maxOnesCount)
                 {
                     maxOnesCount = currCombOnesCount;
                     bestComb = currComb;
                 }
             }
+
         }
 
         Console.WriteLine(bestComb);
