@@ -1,0 +1,9 @@
+string
+file
+listWords
+carrot
+Main()
+Console
+StreamReader
+StreamWriter()
+int

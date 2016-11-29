@@ -1,0 +1,65 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text.RegularExpressions;
+
+
+class RemoveWords
+{
+    static void ()
+    {
+        try
+        {
+             filePath = @"..\..\RemoveWords.cs";
+             wordsPath = @"..\..\words.txt";
+             resultFilePath = @"..\..\result.txt";
+
+            RemoveWordsFromFile(filePath, wordsPath, resultFilePath);
+            .WriteLine("Words from list have been removed!");
+
+        }
+        catch(Exception ex)
+        {
+            .WriteLine(ex.Message);
+        }
+    }
+
+    private static void RemoveWordsFromFile( filePath,  wordsPath,  resultFilePath)
+    {
+         textFile = new (filePath);
+         wordsFile = new (wordsPath);
+         resultFile = new (resultFilePath);
+
+
+        List<> words = new List<>();
+        //extract words from words  and close it
+        using (wordsFile)
+        {
+             word = wordsFile.ReadLine();
+
+            while (word != null)
+            {
+                words.Add(word);
+                word = wordsFile.ReadLine();
+            }
+        }
+        
+
+         currentLine = textFile.ReadLine();
+        //go through every line in the text  and remove all words from the list
+        while (currentLine != null)
+        {
+            foreach (var word in words)
+            {
+                currentLine = Regex.Replace(currentLine, @"\b" + word + @"\b", .Empty);
+            }
+            //currentLine = Regex.Replace(currentLine, @"\s{2,}", " ");
+            resultFile.WriteLine(currentLine);
+            currentLine = textFile.ReadLine();
+        }
+        
+        textFile.Close();
+        resultFile.Close();
+    }
+}
+
