@@ -14,7 +14,7 @@ class TagReplacer
     {
         //string pattern = @"<a href=\""(.*?)\"">(.*?)</a>";
 
-        input = Regex.Replace(input, @"(<a href=""(.*)"">(.*)</a>)?", @"[$2]($1)");
+        input = Regex.Replace(input, @"<a href=""(.*?)"">(.*?)</a>", @"[$2]($1)");
 
         return input;
     }
