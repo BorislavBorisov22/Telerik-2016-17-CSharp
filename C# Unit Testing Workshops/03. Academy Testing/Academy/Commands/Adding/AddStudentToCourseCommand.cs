@@ -8,8 +8,8 @@ namespace Academy.Commands.Adding
 {
     internal class AddStudentToCourseCommand : ICommand
     {
-        private readonly IAcademyFactory factory;
-        private readonly IEngine engine;
+        protected readonly IAcademyFactory factory;
+        protected readonly IEngine engine;
 
         public AddStudentToCourseCommand(IAcademyFactory factory, IEngine engine)
         {
@@ -26,23 +26,6 @@ namespace Academy.Commands.Adding
             this.factory = factory;
             this.engine = engine;
         }
-
-        public IAcademyFactory Factory
-        {
-            get
-            {
-                return this.factory;
-            }
-        }
-
-        public IEngine Engine
-        {
-            get
-            {
-                return this.engine;
-            }
-        }
-
 
         public string Execute(IList<string> parameters)
         {

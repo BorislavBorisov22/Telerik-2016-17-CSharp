@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CE8D2821-709A-42B7-952F-6D13BD0B1EEB}</ProjectGuid>
+    <ProjectGuid>{2374D6F7-DE45-4852-8F0E-3B404DCEB763}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Cosmetics.Tests</RootNamespace>
@@ -52,30 +52,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common\ValidatorTests.cs" />
-    <Compile Include="Engine\CommandTests.cs" />
-    <Compile Include="Engine\CosmeticsEngineTests.cs" />
-    <Compile Include="Engine\CosmeticsFactoryTests.cs" />
-    <Compile Include="Fakes\MockedCategory.cs" />
-    <Compile Include="Fakes\MockedCosmeticsEngine.cs" />
-    <Compile Include="Fakes\MockedShoppingCart.cs" />
-    <Compile Include="Products\CategoryTests.cs" />
-    <Compile Include="Products\ShampooTests.cs" />
-    <Compile Include="Products\ShoppingCartTests.cs" />
-    <Compile Include="Products\ToothPasteTests.cs" />
+    <Compile Include="Common\ValidatorTests\CheckIfStringIsNullOrEmpty_Should.cs" />
+    <Compile Include="Common\ValidatorTests\CheckIfNull_Should.cs" />
+    <Compile Include="Common\ValidatorTests\CheckIfStringLengthIsInvalid.cs" />
+    <Compile Include="Engine\CommandTests\Parse_Should.cs" />
+    <Compile Include="Engine\CosmeticsEngineTests\Fakes\FakeCosmeticsEngine.cs" />
+    <Compile Include="Engine\CosmeticsEngineTests\Start_Should.cs" />
+    <Compile Include="Engine\CosmeticsFactoryTests\CreateCategory_Should.cs" />
+    <Compile Include="Engine\CosmeticsFactoryTests\CreateShampooShould.cs" />
+    <Compile Include="Engine\CosmeticsFactoryTests\CreateToothpaste_Should.cs" />
+    <Compile Include="Products\CategoryTests\AddCosmetics_Should.cs" />
+    <Compile Include="Products\CategoryTests\Fakes\FakeCategory.cs" />
+    <Compile Include="Products\CategoryTests\Print_Should.cs" />
+    <Compile Include="Products\CategoryTests\RemoveCosmetics_Should.cs" />
+    <Compile Include="Products\ShampooTests\Print_Should.cs" />
+    <Compile Include="Products\ShoppingCartTests\AddProduct_Should.cs" />
+    <Compile Include="Products\ShoppingCartTests\ContainsProduct_Should.cs" />
+    <Compile Include="Products\ShoppingCartTests\Fakes\FakeShoppingCart.cs" />
+    <Compile Include="Products\ShoppingCartTests\RemoveProduct_Should.cs" />
+    <Compile Include="Products\ShoppingCartTests\TotalPrice_Should.cs" />
+    <Compile Include="Products\ToothpasteTests\Print_Should.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Cosmetics\Cosmetics.csproj">
       <Project>{b005c0b3-5c89-45a7-9be1-fab966806f40}</Project>
       <Name>Cosmetics</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

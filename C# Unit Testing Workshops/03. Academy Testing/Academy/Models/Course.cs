@@ -11,10 +11,10 @@
     {
         private string name;
         private int lecturesPerWeek;
-        private DateTime startingDate;
-        private DateTime endingDate;
+        private DateTime? startingDate;
+        private DateTime? endingDate;
 
-        public Course(string name, int lecturesPerWeek, DateTime starting, DateTime ending)
+        public Course(string name, int lecturesPerWeek, DateTime? starting, DateTime? ending)
         {
             this.Name = name;
             this.LecturesPerWeek = lecturesPerWeek;
@@ -62,7 +62,7 @@
             }
         }
 
-        public DateTime StartingDate
+        public DateTime? StartingDate
         {
             get
             {
@@ -79,7 +79,7 @@
             }
         }
 
-        public DateTime EndingDate
+        public DateTime? EndingDate
         {
             get
             {
