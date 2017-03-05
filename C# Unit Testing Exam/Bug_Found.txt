@@ -1,0 +1,12 @@
+01. Bug in the Delete method of the PackageRepository
+class where when the package to delete is found but
+it is a dependancy of another package in the collection
+should stop the method execution there, but instead it
+continues and still tries removing the package.
+
+02. Another problem I found is at the GetAll method of the
+PackageRepositoryClass where a private method that was
+that adds some items in the packages and messes up with 
+the collection is called. The method was just forgotten
+to be removed because the commnets on it say that it was
+for test purposes.
