@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretNumeralSystem", "SecretNumeralSystem\SecretNumeralSystem.csproj", "{085911AA-D8E1-4127-BB89-CC03C7987305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards", "Cards\Cards.csproj", "{8710B020-3583-41BA-9AAE-241EDECF6AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SneakyTheSnake", "SneakyTheSnake\SneakyTheSnake.csproj", "{D6E28043-BEC6-466E-BA17-5CB507A9DD62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoshoCode", "GoshoCode\GoshoCode.csproj", "{4E3EEAE8-F4A2-49AC-BA5F-62E6CE844842}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{085911AA-D8E1-4127-BB89-CC03C7987305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{085911AA-D8E1-4127-BB89-CC03C7987305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{085911AA-D8E1-4127-BB89-CC03C7987305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{085911AA-D8E1-4127-BB89-CC03C7987305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8710B020-3583-41BA-9AAE-241EDECF6AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8710B020-3583-41BA-9AAE-241EDECF6AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8710B020-3583-41BA-9AAE-241EDECF6AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8710B020-3583-41BA-9AAE-241EDECF6AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E28043-BEC6-466E-BA17-5CB507A9DD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E28043-BEC6-466E-BA17-5CB507A9DD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E28043-BEC6-466E-BA17-5CB507A9DD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E28043-BEC6-466E-BA17-5CB507A9DD62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3EEAE8-F4A2-49AC-BA5F-62E6CE844842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3EEAE8-F4A2-49AC-BA5F-62E6CE844842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3EEAE8-F4A2-49AC-BA5F-62E6CE844842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3EEAE8-F4A2-49AC-BA5F-62E6CE844842}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
