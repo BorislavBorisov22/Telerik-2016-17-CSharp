@@ -1,0 +1,33 @@
+﻿
+
+	The Power of 1 is 1
+	The Power of 2 is 4
+	The Power of 3 is 9
+	The Power of 4 is 16
+	The Power of 5 is 25
+	The Power of 6 is 36
+	The Power of 7 is 49
+	The Power of 8 is 64
+	The Power of 9 is 81
+	The Power of 10 is 100
+	The Power of 11 is 121
+	The Power of 12 is 144
+	The Power of 13 is 169
+	The Power of 14 is 196
+	The Power of 15 is 225
+	The Power of 16 is 256
+	The Power of 17 is 289
+	The Power of 18 is 324
+	The Power of 19 is 361
+	The Power of 20 is 400
+	The Power of 21 is 441
+	The Power of 22 is 484
+	The Power of 23 is 529
+	The Power of 24 is 576
+	The Power of 25 is 625
+	The Power of 26 is 676
+	The Power of 27 is 729
+	The Power of 28 is 784
+	The Power of 29 is 841
+	The Power of 30 is 900
+	

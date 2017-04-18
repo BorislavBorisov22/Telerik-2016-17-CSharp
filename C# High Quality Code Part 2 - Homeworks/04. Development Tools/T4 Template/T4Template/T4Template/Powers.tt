@@ -1,0 +1,14 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".txt" #>
+
+<# int startNumber = 1; #>
+<# int endNumber = 30; #>
+
+<# for (int i = startNumber; i <= endNumber; i++) { #>
+	The Power of <#=i#> is <#=(i * i)#>
+<# } #>
+	
