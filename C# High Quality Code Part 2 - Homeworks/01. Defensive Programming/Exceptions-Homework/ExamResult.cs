@@ -1,0 +1,94 @@
+﻿using System;
+
+public class ExamResult
+{
+    private int grade;
+    private int minGrade;
+    private int maxGrade;
+    private string comments;
+
+    public ExamResult(int grade, int minGrade, int maxGrade, string comments)
+    {
+        if (maxGrade <= minGrade)
+        {
+            throw new ArgumentOutOfRangeException("Minimal grade must have a smaller value than the maxGrad");
+        }
+
+        this.Grade = grade;
+        this.MinGrade = minGrade;
+        this.MaxGrade = maxGrade;
+        this.Comments = comments;
+    }
+
+    public int MinGrade
+    {
+        get
+        {
+            return this.minGrade;
+        }
+
+        private set
+        {
+            if (value <= 0)
+            {
+                throw new ArgumentOutOfRangeException("MinGrade must be a positive number!");
+            }
+
+            this.minGrade = value;
+        }
+    }
+
+    public int MaxGrade
+    {
+        get
+        {
+            return this.maxGrade;
+        }
+
+        private set
+        {
+            if (value <= this.MinGrade)
+            {
+                throw new ArgumentOutOfRangeException("MaxGrade must be greate than minGrade!");
+            }
+
+            this.maxGrade = value;
+        }
+    }
+
+    public int Grade
+    {
+        get
+        {
+            return this.grade;
+        }
+
+        private set
+        {
+            if (value < 0)
+            {
+                throw new ArgumentOutOfRangeException("Grade must be a non-negative number!");
+            }
+
+            this.grade = value;
+        }
+    }
+
+    public string Comments
+    {
+        get
+        {
+            return this.comments;
+        }
+
+        private set
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                throw new ArgumentNullException("ExamResults\'s commnets cannot be null or empty!");
+            }
+
+            this.comments = value;
+        }
+    }
+}
