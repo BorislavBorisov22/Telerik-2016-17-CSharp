@@ -1,0 +1,25 @@
+birth bush (0,0)
+birth wolf WhiteTooth (1,1)
+go WhiteTooth (0,0)
+go WhiteTooth (1,1)
+birth boar Daddy (0,0)
+go Daddy (0,0)
+Boar Daddy ate 2 from Bush (0,0)
+go Daddy (1,1)
+Boar Daddy ate 4 from Wolf WhiteTooth
+Wolf WhiteTooth is dead ;(
+birth lion Simba (-1,-1)
+go Simba (1,1)
+Lion Simba ate 5 from Boar Daddy
+Boar Daddy is dead ;(
+sleep Simba 10
+birth wolf Mizernik (0,0)
+go Mizernik (1,1)
+Wolf Mizernik ate 7 from Lion Simba
+Lion Simba is dead ;(
+birth zombie Joro (10,10)
+go Mizernik (10,10)
+Wolf Mizernik ate 10 from Zombie Joro
+go Mizernik (10,10)
+Wolf Mizernik ate 10 from Zombie Joro
+end

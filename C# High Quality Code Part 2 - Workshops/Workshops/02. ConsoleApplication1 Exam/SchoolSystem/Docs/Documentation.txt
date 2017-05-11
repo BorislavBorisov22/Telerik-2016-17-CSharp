@@ -1,0 +1,17 @@
+﻿Bottleneck description: --------------------
+#1: At the engines write line the passed message should have been directly printed and not splitted then joined
+and the looped through
+
+
+Bug reports: --------------------
+Format: #Bug number - Class name - Bug description
+Example: #1 - PartnerBankingService - The variable "money" at line 36 overflows when you try to add more than 2.1 billion dollars.
+--------
+#1 - class CreateStudentCommand did not implement the ICommand interface
+#2 - class Student => ListMarks method returned an empty string when the student had no marks instead of returng a correct response message
+#3 - class TeacherAddMarkCommand when getting teacher and student by id we are getting a teacher with the id of
+the student and a student with the id of the teacher, in other words the ids are swapped when getting teacher and student from the dictionaries
+by id
+#4 - class Student => ListMarks method should return a string not only with the marks of the students when their
+count is more than zero but should also first append a line containing "The student has these marks:"
+#5 - Grade enum => Some of the values were missing (not all from 1 to 12 grade were available)
