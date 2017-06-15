@@ -1,0 +1,215 @@
+2017-06-13 22:37:12,731 [1] ERROR - Error activating IDatabase
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  2) Injection of dependency IDatabase into parameter database of constructor of type CreateProjectCommand
+  1) Request for ICommand
+
+Suggestions:
+  1) Ensure that you have defined a binding for IDatabase.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+2017-06-13 22:37:12,742 [1] ERROR - Error activating IDatabase
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  2) Injection of dependency IDatabase into parameter database of constructor of type CreateUserCommand
+  1) Request for ICommand
+
+Suggestions:
+  1) Ensure that you have defined a binding for IDatabase.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+2017-06-13 22:37:12,743 [1] ERROR - Error activating IDatabase
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  2) Injection of dependency IDatabase into parameter database of constructor of type CreateTaskCommand
+  1) Request for ICommand
+
+Suggestions:
+  1) Ensure that you have defined a binding for IDatabase.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+2017-06-13 22:42:10,679 [1] ERROR - Error activating IDatabase
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  2) Injection of dependency IDatabase into parameter database of constructor of type CreateProjectCommand
+  1) Request for ICommand
+
+Suggestions:
+  1) Ensure that you have defined a binding for IDatabase.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+2017-06-13 22:46:53,665 [1] ERROR - Error activating IValidator
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  3) Injection of dependency IValidator into parameter validator of constructor of type ModelsFactory
+  2) Injection of dependency IModelsFactory into parameter factory of constructor of type CreateProjectCommand
+  1) Request for ICommand
+
+Suggestions:
+  1) Ensure that you have defined a binding for IValidator.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+2017-06-13 22:46:53,691 [1] ERROR - Error activating IValidator
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  3) Injection of dependency IValidator into parameter validator of constructor of type ModelsFactory
+  2) Injection of dependency IModelsFactory into parameter factory of constructor of type CreateUserCommand
+  1) Request for ICommand
+
+Suggestions:
+  1) Ensure that you have defined a binding for IValidator.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+2017-06-13 22:46:53,692 [1] ERROR - Error activating IValidator
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  3) Injection of dependency IValidator into parameter validator of constructor of type ModelsFactory
+  2) Injection of dependency IModelsFactory into parameter factory of constructor of type CreateTaskCommand
+  1) Request for ICommand
+
+Suggestions:
+  1) Ensure that you have defined a binding for IValidator.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+2017-06-13 23:01:14,159 [1] ERROR - Error activating IProject
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  1) Request for IProject
+
+Suggestions:
+  1) Ensure that you have defined a binding for IProject.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+2017-06-13 23:01:14,242 [1] ERROR - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2017-06-13 23:01:14,244 [1] ERROR - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2017-06-13 23:03:03,119 [1] ERROR - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2017-06-13 23:03:44,215 [1] ERROR - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2017-06-13 23:07:15,386 [1] ERROR - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2017-06-14 12:20:20,671 [1] ERROR - Error activating IProject
+More than one matching bindings are available.
+Matching bindings:
+  1) binding from IProject to Project
+  2) binding from IProject to method
+Activation path:
+  1) Request for IProject
+
+Suggestions:
+  1) Ensure that you have defined a binding for IProject only once.
+
+2017-06-14 12:26:15,116 [1] ERROR - Error activating IProject
+More than one matching bindings are available.
+Matching bindings:
+  1) binding from IProject to Project
+  2) binding from IProject to method
+Activation path:
+  1) Request for IProject
+
+Suggestions:
+  1) Ensure that you have defined a binding for IProject only once.
+
+2017-06-14 12:27:28,188 [1] ERROR - Unable to cast object of type 'System.DateTime' to type 'System.String'.
+2017-06-14 14:30:09,623 [1] ERROR - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2017-06-14 14:30:09,633 [1] ERROR - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2017-06-14 15:06:52,611 [1] ERROR - Error activating ICommand
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  1) Request for ICommand
+
+Suggestions:
+  1) Ensure that you have defined a binding for ICommand.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+2017-06-14 15:06:52,796 [1] ERROR - Error activating ICommand
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  1) Request for ICommand
+
+Suggestions:
+  1) Ensure that you have defined a binding for ICommand.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+2017-06-14 15:06:52,971 [1] ERROR - Error activating ICommand
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  1) Request for ICommand
+
+Suggestions:
+  1) Ensure that you have defined a binding for ICommand.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+2017-06-14 15:06:53,116 [1] ERROR - Error activating ICommand
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  1) Request for ICommand
+
+Suggestions:
+  1) Ensure that you have defined a binding for ICommand.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+2017-06-14 15:06:53,275 [1] ERROR - Error activating ICommand
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  1) Request for ICommand
+
+Suggestions:
+  1) Ensure that you have defined a binding for ICommand.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
+2017-06-14 15:06:53,406 [1] ERROR - Error activating ICommand
+No matching bindings are available, and the type is not self-bindable.
+Activation path:
+  1) Request for ICommand
+
+Suggestions:
+  1) Ensure that you have defined a binding for ICommand.
+  2) If the binding was defined in a module, ensure that the module has been loaded into the kernel.
+  3) Ensure you have not accidentally created more than one kernel.
+  4) If you are using constructor arguments, ensure that the parameter name matches the constructors parameter name.
+  5) If you are using automatic module loading, ensure the search path and filters are correct.
+
