@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="students.xslt" ?>
+<students xmlns="urn:students">
+  <student>
+    <name>Georgi Ivanov</name>
+    <sex>Male</sex>
+    <birthDate>12.02.1996</birthDate>
+    <phone>0878856123</phone>
+    <email>Gosheto_RaZbIwwA4a_Na_JeNsKi_SARCA@gmail.com</email>
+    <course>2</course>
+    <specialty>Software Engineering</specialty>
+    <facultyNumber>111215032</facultyNumber>
+    <exams>
+      <exam>
+        <name>JavaScript Applications</name>
+        <tutor>Cuki</tutor>
+        <score>6.00</score>
+      </exam>
+    </exams>
+  </student>
+
+  <student>
+    <name>Pencho Ivanov</name>
+    <sex>Male</sex>
+    <birthDate>12.02.1993</birthDate>
+    <phone>0879321654</phone>
+    <email>pencho.ivanov@abv.bg</email>
+    <course>4</course>
+    <specialty>Telecommunications</specialty>
+    <facultyNumber>111213232</facultyNumber>
+    <exams>
+      <exam>
+        <name>Communication Signals and Systems</name>
+        <tutor>Trifon Petrov</tutor>
+        <score>2.00</score>
+      </exam>
+    </exams>
+  </student>
+
+  <student>
+    <name>Penka Ivanova</name>
+    <sex>Female</sex>
+    <birthDate>12.02.1995</birthDate>
+    <phone>0878856423</phone>
+    <email>Penka_Brat@gmail.com</email>
+    <course>3</course>
+    <specialty>Law</specialty>
+    <facultyNumber>1112123032</facultyNumber>
+    <exams>
+      <exam>
+        <name>Human Rights</name>
+        <tutor>Ivanov</tutor>
+        <score>5.80</score>
+      </exam>
+    </exams>
+  </student>
+
+  <student>
+    <name>Ivancho Asenov</name>
+    <sex>Male</sex>
+    <birthDate>13.05.1998</birthDate>
+    <phone>1234567890</phone>
+    <email>ivancho.asenov@gmail.com</email>
+    <course>1</course>
+    <specialty>Politics</specialty>
+    <facultyNumber>123</facultyNumber>
+    <exams>
+      <exam>
+        <name>Econimics</name>
+        <tutor>Petrov</tutor>
+        <score>6.00</score>
+      </exam>
+      <exam>
+        <name>International relations</name>
+        <tutor>Manolev</tutor>
+        <score>3.40</score>
+      </exam>
+    </exams>
+  </student>
+</students>

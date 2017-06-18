@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML">
+  <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\.vs">
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\.vs\ProcessingXML">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\.vs\ProcessingXML\v15">
+        <file name=".suo" />
+      </dir>
+    </dir>
+  </dir>
+  <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\01.ExtractArtistsWithDOM">
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\01.ExtractArtistsWithDOM\bin">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\01.ExtractArtistsWithDOM\bin\Debug">
+        <file name="01.ExtractArtistsWithDOM.exe" />
+        <file name="01.ExtractArtistsWithDOM.exe.config" />
+        <file name="01.ExtractArtistsWithDOM.pdb" />
+      </dir>
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\01.ExtractArtistsWithDOM\bin\Release" />
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\01.ExtractArtistsWithDOM\obj">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\01.ExtractArtistsWithDOM\obj\Debug">
+        <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\01.ExtractArtistsWithDOM\obj\Debug\TempPE" />
+        <file name="01.ExtractArtistsWithDOM.csproj.FileListAbsolute.txt" />
+        <file name="01.ExtractArtistsWithDOM.csprojResolveAssemblyReference.cache" />
+        <file name="01.ExtractArtistsWithDOM.exe" />
+        <file name="01.ExtractArtistsWithDOM.pdb" />
+        <file name="CoreCompileInputs.cache" />
+        <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      </dir>
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\01.ExtractArtistsWithDOM\Properties">
+      <file name="AssemblyInfo.cs" />
+    </dir>
+    <file name="01.ExtractArtistsWithDOM.csproj" />
+    <file name="App.config" />
+    <file name="StartUp.cs" />
+  </dir>
+  <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\02.ExtractArtistsWithXPath">
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\02.ExtractArtistsWithXPath\bin">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\02.ExtractArtistsWithXPath\bin\Debug">
+        <file name="02.ExtractArtistsWithXPath.exe" />
+        <file name="02.ExtractArtistsWithXPath.exe.config" />
+        <file name="02.ExtractArtistsWithXPath.pdb" />
+      </dir>
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\02.ExtractArtistsWithXPath\bin\Release" />
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\02.ExtractArtistsWithXPath\obj">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\02.ExtractArtistsWithXPath\obj\Debug">
+        <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\02.ExtractArtistsWithXPath\obj\Debug\TempPE" />
+        <file name="02.ExtractArtistsWithXPath.csproj.FileListAbsolute.txt" />
+        <file name="02.ExtractArtistsWithXPath.exe" />
+        <file name="02.ExtractArtistsWithXPath.pdb" />
+        <file name="CoreCompileInputs.cache" />
+        <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      </dir>
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\02.ExtractArtistsWithXPath\Properties">
+      <file name="AssemblyInfo.cs" />
+    </dir>
+    <file name="02.ExtractArtistsWithXPath.csproj" />
+    <file name="App.config" />
+    <file name="StartUp.cs" />
+  </dir>
+  <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\03.DeleteAllAlbumsWithPriceAbove20WithDom">
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\03.DeleteAllAlbumsWithPriceAbove20WithDom\bin">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\03.DeleteAllAlbumsWithPriceAbove20WithDom\bin\Debug">
+        <file name="DeleteAllAlbumsWithPriceAbove20WithDom.exe" />
+        <file name="DeleteAllAlbumsWithPriceAbove20WithDom.exe.config" />
+        <file name="DeleteAllAlbumsWithPriceAbove20WithDom.pdb" />
+      </dir>
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\03.DeleteAllAlbumsWithPriceAbove20WithDom\bin\Release" />
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\03.DeleteAllAlbumsWithPriceAbove20WithDom\obj">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\03.DeleteAllAlbumsWithPriceAbove20WithDom\obj\Debug">
+        <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\03.DeleteAllAlbumsWithPriceAbove20WithDom\obj\Debug\TempPE" />
+        <file name="03.DeleteAllAlbumsWithPriceAbove20WithDom.csproj.FileListAbsolute.txt" />
+        <file name="CoreCompileInputs.cache" />
+        <file name="DeleteAllAlbumsWithPriceAbove20WithDom.csproj.FileListAbsolute.txt" />
+        <file name="DeleteAllAlbumsWithPriceAbove20WithDom.exe" />
+        <file name="DeleteAllAlbumsWithPriceAbove20WithDom.pdb" />
+        <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      </dir>
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\03.DeleteAllAlbumsWithPriceAbove20WithDom\Properties">
+      <file name="AssemblyInfo.cs" />
+    </dir>
+    <file name="03.DeleteAllAlbumsWithPriceAbove20WithDom.csproj" />
+    <file name="App.config" />
+    <file name="ItemsAbove20PriceDeleted.xml" />
+    <file name="StartUp.cs" />
+  </dir>
+  <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\04.ExtractAllSongTitlesWithXmlReader">
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\04.ExtractAllSongTitlesWithXmlReader\bin">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\04.ExtractAllSongTitlesWithXmlReader\bin\Debug">
+        <file name="04.ExtractAllSongTitlesWithXmlReader.exe" />
+        <file name="04.ExtractAllSongTitlesWithXmlReader.exe.config" />
+        <file name="04.ExtractAllSongTitlesWithXmlReader.pdb" />
+      </dir>
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\04.ExtractAllSongTitlesWithXmlReader\bin\Release" />
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\04.ExtractAllSongTitlesWithXmlReader\obj">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\04.ExtractAllSongTitlesWithXmlReader\obj\Debug">
+        <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\04.ExtractAllSongTitlesWithXmlReader\obj\Debug\TempPE" />
+        <file name="04.ExtractAllSongTitlesWithXmlReader.csproj.FileListAbsolute.txt" />
+        <file name="04.ExtractAllSongTitlesWithXmlReader.csprojResolveAssemblyReference.cache" />
+        <file name="04.ExtractAllSongTitlesWithXmlReader.exe" />
+        <file name="04.ExtractAllSongTitlesWithXmlReader.pdb" />
+        <file name="CoreCompileInputs.cache" />
+        <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      </dir>
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\04.ExtractAllSongTitlesWithXmlReader\Properties">
+      <file name="AssemblyInfo.cs" />
+    </dir>
+    <file name="04.ExtractAllSongTitlesWithXmlReader.csproj" />
+    <file name="App.config" />
+    <file name="Startup.cs" />
+  </dir>
+  <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\05.ExtractAllSongTitlesWithLinq">
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\05.ExtractAllSongTitlesWithLinq\bin">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\05.ExtractAllSongTitlesWithLinq\bin\Debug">
+        <file name="05.ExtractAllSongTitlesWithLinq.exe" />
+        <file name="05.ExtractAllSongTitlesWithLinq.exe.config" />
+        <file name="05.ExtractAllSongTitlesWithLinq.pdb" />
+      </dir>
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\05.ExtractAllSongTitlesWithLinq\bin\Release" />
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\05.ExtractAllSongTitlesWithLinq\obj">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\05.ExtractAllSongTitlesWithLinq\obj\Debug">
+        <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\05.ExtractAllSongTitlesWithLinq\obj\Debug\TempPE" />
+        <file name="05.ExtractAllSongTitlesWithLinq.csproj.FileListAbsolute.txt" />
+        <file name="05.ExtractAllSongTitlesWithLinq.csprojResolveAssemblyReference.cache" />
+        <file name="05.ExtractAllSongTitlesWithLinq.exe" />
+        <file name="05.ExtractAllSongTitlesWithLinq.pdb" />
+        <file name="CoreCompileInputs.cache" />
+        <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      </dir>
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\05.ExtractAllSongTitlesWithLinq\Properties">
+      <file name="AssemblyInfo.cs" />
+    </dir>
+    <file name="05.ExtractAllSongTitlesWithLinq.csproj" />
+    <file name="App.config" />
+    <file name="Startup.cs" />
+  </dir>
+  <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\07.ExtractAndWriteAlbums">
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\07.ExtractAndWriteAlbums\bin">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\07.ExtractAndWriteAlbums\bin\Debug">
+        <file name="07.ExtractAndWriteAlbums.exe" />
+        <file name="07.ExtractAndWriteAlbums.exe.config" />
+        <file name="07.ExtractAndWriteAlbums.pdb" />
+      </dir>
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\07.ExtractAndWriteAlbums\bin\Release" />
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\07.ExtractAndWriteAlbums\obj">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\07.ExtractAndWriteAlbums\obj\Debug">
+        <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\07.ExtractAndWriteAlbums\obj\Debug\TempPE" />
+        <file name="07.ExtractAndWriteAlbums.csproj.FileListAbsolute.txt" />
+        <file name="07.ExtractAndWriteAlbums.csprojResolveAssemblyReference.cache" />
+        <file name="07.ExtractAndWriteAlbums.exe" />
+        <file name="07.ExtractAndWriteAlbums.pdb" />
+        <file name="CoreCompileInputs.cache" />
+        <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      </dir>
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\07.ExtractAndWriteAlbums\Properties">
+      <file name="AssemblyInfo.cs" />
+    </dir>
+    <file name="07.ExtractAndWriteAlbums.csproj" />
+    <file name="Album.cs" />
+    <file name="album.xml" />
+    <file name="App.config" />
+    <file name="StartUp.cs" />
+  </dir>
+  <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectory">
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectory\bin">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectory\bin\Debug">
+        <file name="TraverseDirectory.exe" />
+        <file name="TraverseDirectory.exe.config" />
+        <file name="TraverseDirectory.pdb" />
+      </dir>
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectory\bin\Release" />
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectory\obj">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectory\obj\Debug">
+        <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectory\obj\Debug\TempPE" />
+        <file name="08.TraverseDirectory.csproj.FileListAbsolute.txt" />
+        <file name="08.TraverseDirectory.csprojResolveAssemblyReference.cache" />
+        <file name="CoreCompileInputs.cache" />
+        <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        <file name="TraverseDirectory.csproj.FileListAbsolute.txt" />
+        <file name="TraverseDirectory.exe" />
+        <file name="TraverseDirectory.pdb" />
+      </dir>
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectory\Properties">
+      <file name="AssemblyInfo.cs" />
+    </dir>
+    <file name="08.TraverseDirectory.csproj" />
+    <file name="App.config" />
+    <file name="output.xml" />
+    <file name="StartUp.cs" />
+  </dir>
+  <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectoryWithXDocument">
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectoryWithXDocument\bin">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectoryWithXDocument\bin\Debug">
+        <file name="TraverseDirectoryWithXDocument.exe" />
+        <file name="TraverseDirectoryWithXDocument.exe.config" />
+        <file name="TraverseDirectoryWithXDocument.pdb" />
+      </dir>
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectoryWithXDocument\bin\Release" />
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectoryWithXDocument\obj">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectoryWithXDocument\obj\Debug">
+        <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectoryWithXDocument\obj\Debug\TempPE" />
+        <file name="CoreCompileInputs.cache" />
+        <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        <file name="TraverseDirectoryWithXDocument.csproj.FileListAbsolute.txt" />
+        <file name="TraverseDirectoryWithXDocument.exe" />
+        <file name="TraverseDirectoryWithXDocument.pdb" />
+      </dir>
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\TraverseDirectoryWithXDocument\Properties">
+      <file name="AssemblyInfo.cs" />
+    </dir>
+    <file name="App.config" />
+    <file name="StartUp.cs" />
+    <file name="TraverseDirectoryWithXDocument.csproj" />
+  </dir>
+  <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\WritePersonInfoInXML">
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\WritePersonInfoInXML\bin">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\WritePersonInfoInXML\bin\Debug">
+        <file name="WritePersonInfoInXML.exe" />
+        <file name="WritePersonInfoInXML.exe.config" />
+        <file name="WritePersonInfoInXML.pdb" />
+      </dir>
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\WritePersonInfoInXML\bin\Release" />
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\WritePersonInfoInXML\obj">
+      <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\WritePersonInfoInXML\obj\Debug">
+        <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\WritePersonInfoInXML\obj\Debug\TempPE" />
+        <file name="06.WritePersonInfoInXML.csproj.FileListAbsolute.txt" />
+        <file name="06.WritePersonInfoInXML.csprojResolveAssemblyReference.cache" />
+        <file name="CoreCompileInputs.cache" />
+        <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        <file name="WritePersonInfoInXML.csproj.FileListAbsolute.txt" />
+        <file name="WritePersonInfoInXML.exe" />
+        <file name="WritePersonInfoInXML.pdb" />
+      </dir>
+    </dir>
+    <dir path="D:\TelerikAcademy\C#\Data Bases\Homeworks\02. Processing XML in .NET\ProcessingXML\WritePersonInfoInXML\Properties">
+      <file name="AssemblyInfo.cs" />
+    </dir>
+    <file name="06.WritePersonInfoInXML.csproj" />
+    <file name="App.config" />
+    <file name="Person.cs" />
+    <file name="person.xml" />
+    <file name="StartUp.cs" />
+  </dir>
+  <file name="catalog.xml" />
+  <file name="catalog.xsd" />
+  <file name="person.txt" />
+  <file name="ProcessingXML.sln" />
+</dir>

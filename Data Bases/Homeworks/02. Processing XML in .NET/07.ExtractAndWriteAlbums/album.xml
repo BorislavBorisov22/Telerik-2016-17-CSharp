@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+    <album>
+        <name>Recovery</name>
+        <artist>Eminem</artist>
+    </album>
+    <album>
+        <name>On Top</name>
+        <artist>Eminem</artist>
+    </album>
+    <album>
+        <name>All Eyes on me</name>
+        <artist>Tupac</artist>
+    </album>
+    <album>
+        <name>Evening Ocean</name>
+        <artist>Shrunk Mcking</artist>
+    </album>
+    <album>
+        <name>World Cup 2010</name>
+        <artist>Shakira</artist>
+    </album>
+</albums>

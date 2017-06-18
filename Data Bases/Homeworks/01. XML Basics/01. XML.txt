@@ -1,0 +1,4 @@
+XML stands for eXtensible Markup Language. It is used to describe and structure different types of data.
+Unlike HTML which is a language, XML is more like a syntax to desrcibe other languages. Also HTML is focused
+on displaying information, but XML is focused on what the information is.Basically XML is information 
+wrapped in tags.

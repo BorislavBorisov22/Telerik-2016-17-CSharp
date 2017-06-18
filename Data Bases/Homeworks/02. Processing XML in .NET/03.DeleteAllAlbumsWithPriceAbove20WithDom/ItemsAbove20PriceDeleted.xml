@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog xmlns="catalog">
+  <album>
+    <name>Evening Ocean</name>
+    <artist>Shrunk Mcking</artist>
+    <year>1994</year>
+    <producer>Evening People</producer>
+    <price>2.30</price>
+    <songs>
+      <song>
+        <title>Turtles</title>
+        <duration>3.45</duration>
+      </song>
+      <song>
+        <title>Cherries</title>
+        <duration>5.00</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>World Cup 2010</name>
+    <artist>Shakira</artist>
+    <year>2015</year>
+    <producer>Foot records</producer>
+    <price>2.30</price>
+    <songs>
+      <song>
+        <title>LaLa</title>
+        <duration>3.45</duration>
+      </song>
+      <song>
+        <title>Waka Waka</title>
+        <duration>5.00</duration>
+      </song>
+      <song>
+        <title>Some title</title>
+        <duration>4.20</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>

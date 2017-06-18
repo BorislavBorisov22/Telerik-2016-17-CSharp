@@ -1,0 +1,4 @@
+XML namespaces are generally used ot solve problems caused by using more than one xml file or by pieces of 
+common fragments in the same file that carry different information. In such case the miht be some problems
+and to solve them, xml namespaces can be defined for each fragment or file of information which will hel us 
+avoid this problem and know exactly wchih type of information we are using.

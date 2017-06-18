@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--xmlns="catalog => put in catalog opening tag if needed"-->
+<catalog>
+  <album>
+    <name>Recovery</name>
+    <artist>Eminem</artist>
+    <year>2010</year>
+    <producer>Eminem</producer>
+    <price>99.45</price>
+    <songs>
+      <song>
+        <title>Not Afraid</title>
+        <duration>3</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>On Top</name>
+    <artist>Eminem</artist>
+    <year>2005</year>
+    <producer>Eminem</producer>
+    <price>45.50</price>
+    <songs>
+      <song>
+        <title>Greatest</title>
+        <duration>3.55</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>All Eyes on me</name>
+    <artist>Tupac</artist>
+    <year>1994</year>
+    <producer>Tupac records</producer>
+    <price>1234</price>
+    <songs>
+      <song>
+        <title>Eyes on me</title>
+        <duration>3.45</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Evening Ocean</name>
+    <artist>Shrunk Mcking</artist>
+    <year>1994</year>
+    <producer>Evening People</producer>
+    <price>2.30</price>
+    <songs>
+      <song>
+        <title>Turtles</title>
+        <duration>3.45</duration>
+      </song>
+      <song>
+        <title>Cherries</title>
+        <duration>5.00</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>World Cup 2010</name>
+    <artist>Shakira</artist>
+    <year>2015</year>
+    <producer>Foot records</producer>
+    <price>2.30</price>
+    <songs>
+      <song>
+        <title>LaLa</title>
+        <duration>3.45</duration>
+      </song>
+      <song>
+        <title>Waka Waka</title>
+        <duration>5.00</duration>
+      </song>
+      <song>
+        <title>Some title</title>
+        <duration>4.20</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>
