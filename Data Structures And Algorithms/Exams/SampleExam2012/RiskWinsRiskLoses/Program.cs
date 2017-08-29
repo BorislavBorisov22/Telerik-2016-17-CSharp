@@ -15,20 +15,76 @@ namespace RiskWinsRiskLoses
             var initialCode = Console.ReadLine();
             targetCode = Console.ReadLine();
 
-            var forbidden = new HashSet<string>();
+            var visited = new HashSet<string>();
             int n = int.Parse(Console.ReadLine());
             for (int i = 0; i < n; i++)
             {
-                forbidden.Add(Console.ReadLine());
+                visited.Add(Console.ReadLine());
             }
 
-            var result = 0;
-            for (int i = 0; i < initialCode.Length; i++)
+            var queue = new Queue<Tuple<string, int>>();
+            queue.Enqueue(new Tuple<string, int>(initialCode, 0));
+
+            StringBuilder builder;
+            while (queue.Count > 0)
             {
-                result += Math.Abs((initialCode[i] - '0') - (targetCode[i] - '0'));   
+                var current = queue.Dequeue();
+
+                for (int i = 0; i < 5; i++)
+                {
+                    var digit = current.Item1[i] - '0';
+                    digit--;
+                    if (digit < 0)
+                    {
+                        digit = 9;
+                    }
+
+                    builder = new StringBuilder(current.Item1);
+                    builder[i] = (char)(digit + '0');
+
+                    var newNode = builder.ToString();
+                    if (newNode == targetCode)
+                    {
+                        Console.WriteLine(current.Item2 + 1);
+                        return;
+                    }
+
+                    if (!visited.Contains(newNode))
+                    {
+                        queue.Enqueue(new Tuple<string, int>(newNode, current.Item2 + 1));
+                        visited.Add(newNode);
+                    }
+
+                    digit = current.Item1[i] - '0';
+
+                    digit++;
+                    if (digit > 9)
+                    {
+                        digit = 0;
+                    }
+
+                    builder[i] = (char)(digit + '0');
+
+                    newNode = builder.ToString();
+                    if (newNode == targetCode)
+                    {
+                        Console.WriteLine(current.Item2 + 1);
+                        return;
+                    }
+
+                    if (!visited.Contains(newNode))
+                    {
+                        queue.Enqueue(new Tuple<string, int>(newNode, current.Item2 + 1));
+                        visited.Add(newNode);
+                    }
+
+                    builder[i] = current.Item1[i];
+                }
+
+               
             }
 
-            Console.WriteLine(result);
+            Console.WriteLine(-1);
         }
 
         static int min = int.MaxValue;
