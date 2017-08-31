@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.RollingHash", "RollingHa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.Geometry", "12.Geometry\12.Geometry.csproj", "{C818B98A-6B55-4BF4-93FC-ACC6ABBE5E54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.KnapsackProblem", "KnapsackProblem\13.KnapsackProblem.csproj", "{4DED7655-83B1-44D8-B9A2-7E16FBF95856}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{C818B98A-6B55-4BF4-93FC-ACC6ABBE5E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C818B98A-6B55-4BF4-93FC-ACC6ABBE5E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C818B98A-6B55-4BF4-93FC-ACC6ABBE5E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DED7655-83B1-44D8-B9A2-7E16FBF95856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DED7655-83B1-44D8-B9A2-7E16FBF95856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DED7655-83B1-44D8-B9A2-7E16FBF95856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DED7655-83B1-44D8-B9A2-7E16FBF95856}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
