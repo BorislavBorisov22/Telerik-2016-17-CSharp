@@ -16,24 +16,36 @@ namespace BoxFullOfBalls
             int start = range[0];
             int end = range[1];
 
-            var result = 0;
-
-
-            var wins = new bool[end + 1];
-            wins[0] = true;
-            for (int i =1; i <= end; i++)
+            var games = new bool[end + 1];
+            games[0] = true;
+            // fill up winning games
+            foreach (var move in moves)
             {
-                foreach (var m in moves)
+                games[move] = true;
+            }
+
+            for (int i = 0; i <= end; i++)
+            {
+                if (games[i])
                 {
-                    if (m > i)
+                    continue;
+                }
+
+                foreach (var move in moves)
+                {
+                    if (i - move >= 0 && games[i - move] == false)
                     {
-                        continue;
+                        games[i] = true;
+                        break;
                     }
-
-
                 }
             }
 
+            var result = 0;
+            for (int i = start; i <= end; i++)
+            {
+                result += games[i] ? 1 : 0;
+            }
 
             Console.WriteLine(result);
         }
