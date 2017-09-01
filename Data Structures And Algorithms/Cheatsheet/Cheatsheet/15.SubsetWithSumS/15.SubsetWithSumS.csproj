@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{354D826D-6F84-4127-83F4-5129020A78AD}</ProjectGuid>
+    <ProjectGuid>{67FF3A2D-9393-40FC-9728-9490A7C6C921}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_14.LongestBitonicSequence</RootNamespace>
-    <AssemblyName>14.LongestBitonicSequence</AssemblyName>
+    <RootNamespace>_15.SubsetWithSumS</RootNamespace>
+    <AssemblyName>15.SubsetWithSumS</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

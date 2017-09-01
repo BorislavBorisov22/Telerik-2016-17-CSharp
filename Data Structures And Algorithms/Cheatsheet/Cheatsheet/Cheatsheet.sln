@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.KnapsackProblem", "Knaps
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.LongestBitonicSequence", "14.LongestBitonicSequence\14.LongestBitonicSequence.csproj", "{354D826D-6F84-4127-83F4-5129020A78AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.SubsetWithSumS", "15.SubsetWithSumS\15.SubsetWithSumS.csproj", "{67FF3A2D-9393-40FC-9728-9490A7C6C921}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{354D826D-6F84-4127-83F4-5129020A78AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{354D826D-6F84-4127-83F4-5129020A78AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{354D826D-6F84-4127-83F4-5129020A78AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67FF3A2D-9393-40FC-9728-9490A7C6C921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FF3A2D-9393-40FC-9728-9490A7C6C921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FF3A2D-9393-40FC-9728-9490A7C6C921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FF3A2D-9393-40FC-9728-9490A7C6C921}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
