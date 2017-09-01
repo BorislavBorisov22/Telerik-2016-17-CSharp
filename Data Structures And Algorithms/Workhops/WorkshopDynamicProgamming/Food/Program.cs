@@ -2,164 +2,106 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
 
-namespace Food
+namespace KnapsackAlgo
 {
-    public class Program
+    class KnapsackAlgorithm
     {
-        public static void Main()
+        static Node[] nodes;
+
+        static void Main(string[] args)
         {
-            int kolyoStomachCapacity = int.Parse(Console.ReadLine());
+            //int[] value = { 10, 50, 70 };
+            //int[] weight = { 10, 20, 30 };
+            //int capacity = 40;
+            //int itemsCount = 3;
+
+            //int result = KnapSack(capacity, weight, value, itemsCount);
+            //Console.WriteLine(result);
+            int maxWeight = int.Parse(Console.ReadLine());
             int foodsCount = int.Parse(Console.ReadLine());
 
-            var queue = new PriorityQueue<Food>();
+            nodes = new Node[foodsCount + 1];
+            var weights = new int[foodsCount];
+            var values = new int[foodsCount];
 
-            var foods = new Food[foodsCount];
-            for (int i = 0; i < foodsCount; i++)
+            for (int i = 1; i < foodsCount + 1; i++)
             {
                 var line = Console.ReadLine().Split(' ');
-                foods[i] = new Food(line[0], int.Parse(line[1]), int.Parse(line[2]));
-                queue.Enqueue(foods[i]);
+                weights[i - 1] = int.Parse(line[1]);
+                values[i - 1] = int.Parse(line[2]);
+                nodes[i] = new Node(line[0], int.Parse(line[1]), int.Parse(line[2]));
             }
 
-            var sum = 0;
-            int freeSpace = kolyoStomachCapacity;
-            var result = new StringBuilder();
-            while (!queue.IsEmpty)
+            var result = KnapSackCopied(maxWeight, weights, values, foodsCount);
+            Console.WriteLine(result.Item1);
+            Console.WriteLine(string.Join("\n", result.Item2));
+        }
+
+        public static Tuple<int, List<string>> KnapSackCopied(int capacity, int[] weight, int[] value, int itemsCount)
+        {
+            int[,] K = new int[itemsCount + 1, capacity + 1];
+
+            for (int i = 0; i <= itemsCount; ++i)
             {
-                var current = queue.Dequeue();
-                while (!queue.IsEmpty && freeSpace - current.Weight < 0)
+                for (int w = 0; w <= capacity; ++w)
                 {
-                    current = queue.Dequeue();
+                    if (i == 0 || w == 0)
+                        K[i, w] = 0;
+                    else if (weight[i - 1] <= w)
+                        K[i, w] = Math.Max(value[i - 1] + K[i - 1, w - weight[i - 1]], K[i - 1, w]);
+                    else
+                        K[i, w] = K[i - 1, w];
                 }
-
-                if (queue.IsEmpty && freeSpace - current.Weight < 0)
-                {
-                    break;
-                }
-
-                for (int i = foods.Length - 1; i >= 0; i--)
-                {
-                    if (foods[i].Name == current.Name)
-                    {
-                        result.AppendLine(foods[i].Name);
-                        break;
-                    }
-                }
-
-                sum += current.Taste;
-                freeSpace -= current.Weight;
             }
 
-            Console.WriteLine(sum);
-            Console.WriteLine(result.ToString().Trim());
-        }
-    }
+            var results = new List<string>();
+            int col = capacity;
 
-    public class PriorityQueue<T>
-        where T : IComparable<T>
-    {
-        private List<T> heap;
-        private Func<T, T, bool> compare;
-
-        public PriorityQueue()
-        {
-            this.heap = new List<T>
+            for (int row = itemsCount; row > 0; row--)
             {
-                default(T)
-            };
-
-            this.compare = (x, y) => x.CompareTo(y) < 0;
-        }
-
-        public T Top => heap[1];
-        public int Count => heap.Count - 1;
-        public bool IsEmpty => Count == 0;
-
-        public void Enqueue(T value)
-        {
-            var index = heap.Count; // index where inserted
-            heap.Add(value);
-
-            while (index > 1 && compare(value, heap[index / 2]))
-            {
-                heap[index] = heap[index / 2];
-                index /= 2;
-            }
-
-            heap[index] = value;
-        }
-
-        public T Dequeue()
-        {
-            var toReturn = heap[1];
-            var value = heap[heap.Count - 1];
-            heap.RemoveAt(heap.Count - 1);
-
-            if (!this.IsEmpty)
-            {
-                this.HeapifyDown(1, value);
-            }
-
-            return toReturn;
-        }
-
-        private void HeapifyDown(int index, T value)
-        {
-            while (index * 2 + 1 < heap.Count)
-            {
-                var smallerKidIndex = compare(heap[index * 2], heap[index * 2 + 1])
-                    ? index * 2
-                    : index * 2 + 1;
-                if (compare(heap[smallerKidIndex], value))
+                if (K[row - 1, col] == K[row, col])
                 {
-                    heap[index] = heap[smallerKidIndex];
-                    index = smallerKidIndex;
+                    continue;
                 }
                 else
                 {
-                    break;
+                    results.Add(nodes[row].Name);
+                    col = Math.Abs(col - nodes[row].Weight);
                 }
             }
 
-            if (index * 2 < heap.Count)
+            return new Tuple<int, List<string>>(K[itemsCount, capacity], results);
+        }
+
+        public static void PrintMatrix(int[,] matrix)
+        {
+            for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                var smallerKidIndex = index * 2;
-                if (compare(heap[smallerKidIndex], value))
+                for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    heap[index] = heap[smallerKidIndex];
-                    index = smallerKidIndex;
+                    Console.Write(matrix[i, j] + " ");
                 }
-            }
 
-            heap[index] = value;
+                Console.WriteLine();
+            }
         }
     }
 
-    public class Food : IComparable<Food>
+    public class Node
     {
-        public Food(string name, int weight, int taste)
+        public Node(string name, int weight, int value)
         {
             this.Name = name;
             this.Weight = weight;
-            this.Taste = taste;
+            this.Value = value;
         }
 
         public int Weight { get; set; }
 
-        public int Taste { get; set; }
+        public int Value { get; set; }
 
         public string Name { get; set; }
-
-        public int CompareTo(Food other)
-        {
-            return other.Taste.CompareTo(this.Taste);
-        }
-
-        public override string ToString()
-        {
-            return this.Name;
-        }
     }
 }
