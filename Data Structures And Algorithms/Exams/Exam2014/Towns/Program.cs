@@ -107,7 +107,7 @@ namespace Towns
 
             for (int i = numbers.Length - 2; i >= 0; i--)
             {
-                for (int j = numbers.Length - 1; j > i; j++)
+                for (int j = numbers.Length - 1; j > i; j--)
                 {
                     if (numbers[j] < numbers[i])
                     {
