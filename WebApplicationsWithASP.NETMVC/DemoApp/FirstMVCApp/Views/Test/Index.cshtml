@@ -1,0 +1,23 @@
+﻿@model FirstMVCApp.Models.TestViewModel
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(x => x.FirstName, "FirstName", null);
+    @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control" });
+
+    @Html.LabelFor(x => x.LastName, "LastName", null);
+    @Html.TextBoxFor(x => x.LastName, new { @class = "form-control" });
+
+
+    @Html.LabelFor(x => x.Age, "Age", null);
+    @Html.TextBoxFor(x => x.Age, new { @class = "form-control" });
+
+    <input type="submit" value="Submit" class="btn btn-default"/>
+
+    <br />
+    <br />
+
+    @Html.DisplayFor(x => x.FirstName);
+    @Html.DisplayFor(x => x.LastName);
+    @Html.DisplayFor(x => x.Age);
+}
