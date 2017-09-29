@@ -1,0 +1,9 @@
+﻿@using ForumSystem.Web.Models.Posts
+@model IEnumerable<PostViewModel>
+
+<div class="row">
+    @foreach(var post in Model)
+    {
+        @Html.Partial("_PostDetailsPartial", post);
+    }
+</div>

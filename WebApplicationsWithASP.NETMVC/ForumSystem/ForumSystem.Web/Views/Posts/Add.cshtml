@@ -1,0 +1,16 @@
+﻿@using ForumSystem.Web.Models.Posts
+@model PostViewModel
+
+<h1>Add new post here</h1>
+@using (@Html.BeginForm("Add", "Posts", FormMethod.Post, null))
+{
+    @Html.LabelFor(m => m.Title);
+    @Html.TextBoxFor(m => m.Title, new { @class = "form-control" });
+    <br />
+
+    @Html.LabelFor(m => m.Content);
+    @Html.TextBoxFor(m => m.Content, new { @class = "form-control" });
+    <br />
+
+    <input type="submit" value="Add" class="btn btn-primary"/>
+}
