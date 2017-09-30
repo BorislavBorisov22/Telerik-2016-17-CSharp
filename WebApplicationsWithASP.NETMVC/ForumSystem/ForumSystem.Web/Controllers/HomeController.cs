@@ -1,4 +1,5 @@
 ﻿using ForumSystem.Services.Contracts;
+using ForumSystem.Services.Data.Contracts;
 using System.Linq;
 using System.Web.Mvc;
 

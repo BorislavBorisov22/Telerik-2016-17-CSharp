@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNet.Identity;
+﻿using ForumSystem.Data.Models.Contracts;
+using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace ForumSystem.Data.Models
 {
-    public class User : IdentityUser
+    public class User : IdentityUser, IDeletable, IAuditable
     {
         public User()
         {
@@ -30,7 +31,7 @@ namespace ForumSystem.Data.Models
 
         public bool IsDeleted { get; set; }
 
-        public DateTime? DeltedOn { get; set; }
+        public DateTime? DeletedOn { get; set; }
 
         public virtual ICollection<Post> Posts { get; set; }
     }

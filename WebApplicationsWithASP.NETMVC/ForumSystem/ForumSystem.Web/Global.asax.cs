@@ -8,6 +8,8 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using ForumSystem.Data.Migrations;
+using ForumSystem.Web.App_Start;
+using System.Reflection;
 
 namespace ForumSystem.Web
 {
@@ -21,6 +23,9 @@ namespace ForumSystem.Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            var mapper = new AutoMapperConfig();
+            mapper.Execute(Assembly.GetExecutingAssembly());
         }
     }
 }

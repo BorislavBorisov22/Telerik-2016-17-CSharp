@@ -1,10 +1,10 @@
-﻿using ForumSystem.Data.Models;
+﻿using AutoMapper;
+using ForumSystem.Data.Models;
 using ForumSystem.Services.Contracts;
+using ForumSystem.Services.Data.Contracts;
 using ForumSystem.Web.Models.Posts;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace ForumSystem.Web.Controllers
@@ -12,39 +12,43 @@ namespace ForumSystem.Web.Controllers
     public class PostsController : Controller
     {
         private readonly IPostsService postsService;
+        private readonly IMappingService mappingService;
 
-        public PostsController(IPostsService postsService)
+        public PostsController(IPostsService postsService, IMappingService mappingService)
         {
             if (postsService == null)
             {
                 throw new ArgumentNullException("PostsService cannot be null!");
             }
 
+            if (mappingService == null)
+            {
+                throw new ArgumentNullException("Mappging service cannot be null!");
+            }
+
+            this.mappingService = mappingService;
             this.postsService = postsService;
         }
 
         public ActionResult Index()
         {
             var posts = this.postsService
-                .GetAll()
-                .Select(p => new PostViewModel()
-                {
-                    Title = p.Title,
-                    Content = p.Content,
-                    CreatedOn = p.CreatedOn,
-                    AuthorEmail = p.Author?.Email
-                });                   
+               .GetAll()
+               .Select(p => this.mappingService.Map<PostViewModel>(p))
+               .ToList();
 
             return this.View(posts);
         }
 
         [HttpGet]
+        [Authorize]
         public ActionResult Add()
         {
             return this.View();
         }
 
         [HttpPost]
+        [Authorize]
         public ActionResult Add(PostViewModel post)
         {
             var postDataModel = new Post()

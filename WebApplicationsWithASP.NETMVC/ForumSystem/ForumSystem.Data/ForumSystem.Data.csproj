@@ -78,6 +78,10 @@
     <Compile Include="Migrations\201709291949138_InitialCreate.Designer.cs">
       <DependentUpon>201709291949138_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709301858389_FixedCreatedOnPropertyTypoInUserModel.cs" />
+    <Compile Include="Migrations\201709301858389_FixedCreatedOnPropertyTypoInUserModel.Designer.cs">
+      <DependentUpon>201709301858389_FixedCreatedOnPropertyTypoInUserModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MsSqlDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -89,6 +93,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201709291949138_InitialCreate.resx">
       <DependentUpon>201709291949138_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709301858389_FixedCreatedOnPropertyTypoInUserModel.resx">
+      <DependentUpon>201709301858389_FixedCreatedOnPropertyTypoInUserModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
