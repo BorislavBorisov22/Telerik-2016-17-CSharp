@@ -1,5 +1,5 @@
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(ForumSystem.Web.App_Start.NinjectWebCommon), "Start")]
-[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(ForumSystem.Web.App_Start.NinjectWebCommon), "Stop")]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(ForumSystem.Web.App_Start.DependenciesConfig), "Start")]
+[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(ForumSystem.Web.App_Start.DependenciesConfig), "Stop")]
 
 namespace ForumSystem.Web.App_Start
 {
@@ -17,7 +17,7 @@ namespace ForumSystem.Web.App_Start
     using Data.SaveContext;
     using Services.Contracts;
 
-    public static class NinjectWebCommon 
+    public static class DependenciesConfig 
     {
         private static readonly Bootstrapper bootstrapper = new Bootstrapper();
 

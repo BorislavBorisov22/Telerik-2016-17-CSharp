@@ -1,5 +1,4 @@
-﻿using AutoMapper;
-using ForumSystem.Data.Models;
+﻿using ForumSystem.Data.Models;
 using ForumSystem.Services.Contracts;
 using ForumSystem.Services.Data.Contracts;
 using ForumSystem.Web.Models.Posts;
@@ -38,6 +37,20 @@ namespace ForumSystem.Web.Controllers
                .ToList();
 
             return this.View(posts);
+        }
+
+        public ActionResult PostsAsync()
+        {
+           return this.View();
+        }
+
+        public ActionResult GetPostsAsync()
+        {
+            var posts = this.postsService.GetAll()
+                    .Select(this.mappingService.Map<PostViewModel>)
+                    .ToList();
+
+            return this.PartialView("PostsTitlesPartial", posts);
         }
 
         [HttpGet]

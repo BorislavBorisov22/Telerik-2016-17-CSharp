@@ -1,0 +1,25 @@
+﻿<div id="posts-container"></div>
+
+<a class="btn btn-success" data-ajax="true"
+      data-ajax-method="GET"
+      data-ajax-mode="replace"
+      data-ajax-update="#posts-container"
+      href="/posts/getpostsAsync">
+    Get Posts Unobtrusive
+</a>
+
+@Ajax.ActionLink("Get Posts MVC Helper", "GetPostsAsync", "Posts", null, new AjaxOptions()
+{
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "posts-container",
+    OnSuccess = "onPostsLoaded",
+
+}, new { @class="btn btn-primary"})
+
+@section Scripts{
+    <script>
+        function onPostsLoaded(posts) {
+            alert('Posts Loaded');
+        };
+    </script>
+}
